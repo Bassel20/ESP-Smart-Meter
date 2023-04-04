@@ -9,8 +9,10 @@ This project reads electricity and voltage data from an energy monitor sensor an
 - AC Voltage sensor
 - Arduino IDE
 - Adafruit MQTT library
-- WiFiManager library
-- ESP8266HTTPClient library
+- ESP8266WiFi library
+- A Google account
+- Jupyter Notebook with TensorFlow installed
+
 
 ![bd drawio (13)](https://user-images.githubusercontent.com/86083079/229686175-e321b83f-72dc-4abb-8789-0545452ef467.png)
 
@@ -30,6 +32,13 @@ This project reads electricity and voltage data from an energy monitor sensor an
 6. Start Node-RED on your computer and create a new MQTT input node. 
    - Set the MQTT input node topic to "energy-monitor/data".
    - Configure the MQTT input node to output to a chart or dashboard.
+
+## Jupyter Notebook setup
+
+1. Open Jupyter Notebook on your computer.
+2. Create a new Python 3 notebook.
+3. Install the necessary libraries
+
 
 ## Upload the code
 
