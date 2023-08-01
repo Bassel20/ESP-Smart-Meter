@@ -17,7 +17,7 @@ This project reads electricity and voltage data from an energy monitor sensor an
 ![bd drawio (13)](https://user-images.githubusercontent.com/86083079/229686175-e321b83f-72dc-4abb-8789-0545452ef467.png)
 
 
-## Setup
+## Prototype Setup
 
 1. Wire the voltage and current sensors to the NodeMCU board.
 2. Connect the NodeMCU board to your computer via USB.
